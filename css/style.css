@@ -1,0 +1,85 @@
+body {
+  color: #333;
+  font-family: 'Sacramento', cursive;
+  margin: 0;
+}
+
+header {
+  background-color:rgba(255,0,0,0.6);
+  padding: 32px 32px;
+}
+
+.container {
+ margin-left: auto;
+ margin-right: auto;
+ width: 400px;
+ display: flex;
+}
+
+.icon {
+  margin: auto;
+}
+
+.icon img {
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #fff;
+  box-shadow: 0 25px 25px 5px rgba(0, 0, 0, 0.8);
+  transition-duration: 0.5s;
+  
+}
+
+.icon:hover img{
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
+.works {
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  margin: 180px 60px;
+
+}
+
+.per1 img {
+  border-radius: 10px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.8);
+  transition-duration: 0.5s;
+}
+
+.per1:hover img{
+  transform: scale(1.2);
+}
+
+.per2 img {
+  border-radius: 10px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.8);
+  transition-duration: 0.5s;
+}
+
+.per2:hover img{
+  transform: scale(1.2);
+}
+
+.per3 img {
+  border-radius: 10px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.8);
+  transition-duration: 0.5s;
+}
+
+.per3:hover img{
+  transform: scale(1.2);
+}
+
+.works > section {
+  margin-top: auto;
+  margin-bottom: 200px;
+}
+
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  background-color: #efefef;
+}
